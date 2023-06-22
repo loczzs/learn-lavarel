@@ -28,6 +28,9 @@ class ProductsController extends Controller
         // return view('products.index', [
         //     'myphone' => $myphone
         // ]);
+        //lấy router name
+        print_r((route('products')));
+        return view('products.index');
        
     }
     public function about(){
